@@ -1,5 +1,5 @@
 {
-    "id": "Neo Nickz",
+    "id": "NeoNickz",
     "title": "Neo Nickz's Shottype Mods",
     "contact": "@NeoNickz",
     "servers": [
