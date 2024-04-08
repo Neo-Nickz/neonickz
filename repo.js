@@ -8,5 +8,5 @@
 	"servers": [
 		"https://mirrors.thpatch.net/neonickz/"
 	],
-	"title": "Neo Nickzs Shottype Mods"
+	"title": "Neo Nickz's Shottype Mods"
 }
