@@ -2,9 +2,9 @@
 	"dependencies": [
 		"nmlgc/base_tsa"
 	],
-        "id": "th15aya",
+        "id": "Th15Aya",
         "servers": [
-        "https://mirrors.thpatch.net/neonickz/th15aya"
+        "https://mirrors.thpatch.net/neonickz/Th15Aya"
         ],
-        "title": "(TH15) Replaces Sanae with HSiFS Aya. Bomb is unchanged."
+        "title": "(TH15) Replaces Sanae with HSiFS Aya."
 }
