@@ -1,6 +1,6 @@
 {
 	"id": "neonickz",
-	"title": "Neo Nickz's Shottype Mods",
+	"title": "Neo Nickz's Shottype Mods (+ Others)",
 	"contact": "@neonickz",
 	"servers": [
 	    "https://mirrors.thpatch.net/neonickz/"
