@@ -1,0 +1,150 @@
+
+void MBoss()
+{
+    var A, B, C, D;
+    setBoss(0);
+    anmSelect(0);
+    anmSetSprite(2, 170);
+    anmSelect(2);
+    anmSetMain(0, 7);
+    flagSet(64);
+    setHurtbox(48.0f, 48.0f);
+    setHitbox(40.0f, 40.0f);
+    lifeSet(2000);
+    lifeMarker(0, 2000.0f, -24448);
+    $CAPTURE = 1;
+    setChapter(6);
+    movePosTime(60, 4, 0.0f, 128.0f);
+    wait(70);
+    playSound(41);
+    anmSetSprite(0, 35);
++60: //60
+    dialogWait();
+    anmSetMain(0, 27);
+    moveLimit(0.0f, 128.0f, 280.0f, 16.0f);
+    playSound(41);
+    fog(160.0f, 8421376);
+    anmSelect(0);
+    anmSetSprite(1, 92);
+    anmSelect(2);
+    @MBossCard1();
+    goto MBoss_672 @ 60;
+MBoss_652:
+    wait(1000);
+MBoss_672:
+    if (1) goto MBoss_652 @ 60;
+    delete();
+}
+
+void MBossCard1()
+{
+    var A, B, C, D, E;
+    setInterrupt(0, 0, 2220, "Boss2");
+    spell(138, 2220, 0, "—d‰öu‰Î‰‹‚ÌŽÔ—Öv");
+    setChapter(15);
+    lifeSet(2000);
+    lifeMarker(0, 2000.0f, -24448);
+    setInterrupt(0, 0, 2220, "MBossDead");
+    killAllAsync();
+    setInvuln(60);
+    enmCreate("Ecl_EtBreak", 0.0f, 0.0f, 9999, 0, 0);
+    enmKillAll();
+    $CAPTURE = 1;
+    moveLimitReset();
++30: //30
+    anmPlay(0, 131);
++60: //90
+    nop();
+    flagSet(12);
+    $E = 50;
+    goto MBossCard1_1112 @ 90;
+MBossCard1_524:
+    %F0 = 0.02618f;
+    %F1 = 0.006545f;
+    $I0 = 25;
+    $I1 = 0;
+    @MBossCard1_at() async;
+    wait($E);
+    %F0 = -0.02618f;
+    %F1 = -0.006545f;
+    $I0 = 18;
+    $I1 = 1;
+    @MBossCard1_at() async;
+    wait($E);
+    unless ($E > 30) goto MBossCard1_1112 @ 90;
+    $E = $E - 4;
+MBossCard1_1112:
+    if (1) goto MBossCard1_524 @ 90;
+    return;
+}
+
+void MBossCard1_at()
+{
+    var A, B, C, D, E, F;
+    etNew($I1);
+    etAim($I1, 3);
+    etSprite($I1, $I0, 0);
+    etCountD($I1, 12, 24, 26, 28, 1, 1, 1, 1);
+    etAngle($I1, 0.0f, 0.0f);
+    etSpeedD($I1, 1.75f, 1.75f, 1.75f, 1.75f, 1.5f, 1.5f, 1.5f, 1.5f);
+    etEx($I1, 0, 1, 2, 1, -999999, -999999.0f, -999999.0f);
+    etEx($I1, 2, 0, 4, 60, -999999, 0.016666668f, -999999.0f);
+    $D = 12;
+    %A = _f(12);
+    $E = 100;
+    %B = 1.570796f;
+    %C = %F0;
+    $F = $I1;
+    goto MBossCard1_at_968 @ 0;
+MBossCard1_at_600:
+    etEx($F, 1, 0, 4096, 30, -999999, -999999.0f, -999999.0f);
+    etDist($F, %A);
+    etAngle($F, %B, 0.0f);
+    etOn($F);
+    %A = %A + _f(14);
+    $E = $E - 7;
+    %B = %B - %C;
+    wait(8);
+MBossCard1_at_968:
+    if ($D--) goto MBossCard1_at_600 @ 0;
+    return;
+}
+
+void MBossDead()
+{
+    var A;
+    flagSet(140);
+    anmPlay(0, 76);
+    playSound(18);
+    anmPlay(0, 141);
+    moveVel(%RANDRAD, 0.4f);
+    unless ($TIMEOUT == 0) goto MBossDead_308 @ 0;
+    enmCreate("Ecl_EtBreak2", 0.0f, 0.0f, 9999, 0, 0);
+    goto MBossDead_364 @ 0;
+MBossDead_308:
+    enmCreate("Ecl_EtBreak2_ni", 0.0f, 0.0f, 9999, 0, 0);
+MBossDead_364:
++60: //60
+    etClearAll();
+    spellEnd();
+    enmKillAll();
+    dropMain(0);
+    unless ($TIMEOUT == 0) goto MBossDead_756 @ 60;
+    dropClear();
+    unless ($CAPTURE == 1) goto MBossDead_628 @ 60;
+    dropMain(5);
+MBossDead_628:
+    $CAPTURE = 1;
+    dropExtra(4, 2);
+    dropExtra(2, 10);
+    dropArea(48.0f, 48.0f);
+    dropItems();
+MBossDead_756:
+    setScreenShake(30, 12, 0);
+    anmPlay(0, 76);
+    anmPlay(0, 142);
+    playSound(18);
+    setBoss(-1);
+    delete();
+    delete();
+}
