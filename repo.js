@@ -11,6 +11,7 @@
 	    "PCBReimuUFO": "(TH12) Recreates PCB ReimuA and ReimuB in UFO. As per usual with my mods, bombs are unchanged.", 
 		"SoEWReimuC": "(TH16) Replaces Aya with SoEW ReimuC.\n To be as accurate as possible to SoEW, Reimu's focus and unfocus speeds are the same, and you're slow as shit!\n You can still see your hitbox when focused though.\n A special thank you to TESM for allowing me to use his PC98 Reimu portrait sprites from MiDI.",
 	    "DoremyNon1Fix": "(TH15) This patch fixes the mess that is Doremy's non 1. ECL changes by okaylol, i'm just hosting it.\n Note that this patch only targets the Lunatic version of non 1.",
-        "EoSDMarisaUFO": "(TH12) Recreates EoSD Marisa A and B in UFO.\n PS. When you Power up with MarisaA after Power 2, stop shooting to update the laser damage and sprite.\n (No clue why it works like this lol)\n Also, you can't see your hitbox to be a bit more accurate to EoSD, have fun~"
+        "EoSDMarisaUFO": "(TH12) Recreates EoSD Marisa A and B in UFO.\n PS. When you Power up with MarisaA after Power 2, stop shooting to update the laser damage and sprite.\n (No clue why it works like this lol)\n Also, you can't see your hitbox to be a bit more accurate to EoSD, have fun~",\
+		"Th15SakuyaB": "(TH15) Attempts to recreate DDC SakuyaB in LoLK, with the shitty damage you know and love!\n Good luck LNNing with this."
     }
 }
