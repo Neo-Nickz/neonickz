@@ -6,5 +6,5 @@
         "servers": [
         "https://mirrors.thpatch.net/neonickz/PCBReimuUFO"
         ],
-        "title": "(TH12) Recreates PCB ReimuA and ReimuB in UFO. As per usual with my mods, bombs are unchanged."
+        "title": "(TH12) Recreates PCB ReimuA and ReimuB in UFO. As per usual with my mods, bombs are unchanged. *update coming soon-ish*"
 }
