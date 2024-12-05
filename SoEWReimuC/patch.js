@@ -1,6 +1,8 @@
 {
 	"dependencies": [
-		"nmlgc/base_tsa"
+                "nmlgc/base_tsa",
+		"nmlgc/script_latin",
+		"thpatch/lang_en"
 	],
         "id": "SoEWReimuC",
         "servers": [
