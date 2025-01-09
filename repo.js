@@ -1,6 +1,6 @@
 {
 	"id": "neonickz",
-	"title": "Neo Nickz's Shottype Mods (+ Others)",
+	"title": "Neo Nickz's Shottype and Game mods",
 	"contact": "@neonickz",
 	"servers": [
 	    "https://mirrors.thpatch.net/neonickz/"
@@ -12,6 +12,8 @@
 	    "DoremyNon1Fix": "(TH15) This patch fixes the mess that is Doremy's non 1. ECL changes by okaylol, i'm just hosting it.\n Note that this patch only targets the Lunatic version of non 1.",
 		"Th15SakuyaB": "(TH15) Attempts to recreate DDC SakuyaB in LoLK, with the damage you know and love!\n Good luck LNNing with this. She replaces Reisen.",
 		"TH18Cirno": "(TH18) Replaces Sanae with HSiFS Cirno, damage cap included!\n No Releases Included.",
-		"YoukaiBuster": "(TH13) Recreates MoF's ReimuC shottype into other games, usually replaces Reimu's shottype with Youkai Buster."
+		"YoukaiBuster": "(TH13) Recreates MoF's ReimuC shottype into other games, usually replaces Reimu's shottype with Youkai Buster.",
+		"Th15Sukune": "(TH15) Recreates Len'en 3 Sukune in LoLK, comes with a custom bomb aswell. She replaces Sanae.\n Credit to RosePenguin100 for making the shottype and balancing it.\n also don't use th15aya with this lmao",
+		"Th18GrazeCounter": "(TH18) Adds a graze counter to the HUD in UM, replay compatible.\n Should also work with other UM patches that don't edit front.anm or abcard.anm."
     }
 }
