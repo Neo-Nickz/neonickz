@@ -14,6 +14,8 @@
 		"TH18Cirno": "(TH18) Replaces Sanae with HSiFS Cirno, damage cap included!\n No Releases Included.",
 		"YoukaiBuster": "(TH13) Recreates MoF's ReimuC shottype into other games, usually replaces Reimu's shottype with Youkai Buster.",
 		"Th15Sukune": "(TH15) Recreates Len'en 3 Sukune in LoLK, comes with a custom bomb aswell. She replaces Sanae.\n Credit to RosePenguin100 for making the shottype and balancing it.\n also don't use th15aya with this lmao",
-		"Th18GrazeCounter": "(TH18) Adds a graze counter to the HUD in UM, replay compatible.\n Should also work with other UM patches that don't edit front.anm or abcard.anm."
+		"Th18GrazeCounter": "(TH18) Adds a graze counter to the HUD in UM, replay compatible.\n Should also work with other UM patches that don't edit front.anm or abcard.anm.",
+		"QuickECLReload": "(TH10-TH18.5) Makes ESC + R reload ECLs \n Doesn't Support: TH06-TH09.5, TH12.8, TH12.5, TH19",
+		"DrunktainOfFaith": "(TH10) MoF but it's trippy"
     }
 }
