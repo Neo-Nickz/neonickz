@@ -7,6 +7,6 @@
 	"servers": [
 		"https://mirrors.thpatch.net/neonickz/Th15SakuyaB/"
 	],
-	"title": "(TH15) Attempts to recreate DDC SakuyaB in LoLK, with damage... that's somehow better in this game than DDC? She replaces Reisen.",
+	"title": "(TH15) Attempts to recreate DDC SakuyaB in LoLK, with damage... that's somehow better in this game than DDC? She replaces Reisen, bomb is unchanged.",
 	"update": true
 }
