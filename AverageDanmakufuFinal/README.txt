@@ -11,6 +11,7 @@ below is a list of oddities i'll probably fix in the future:
 - some enemies pop in/pop out (me being lazy)
 - some curvy/line lasers noticeably despawn, this is more apparent if you put a ECL patch alongsidee this one
 - thprac doesn't work on some stages/bosses (crashes, or doesn't teleport), not much I can do about this one personally 
+- some effects look off (hyper bg, death effect)
 - hecatia's survival probably crashes
 - probably more
 
