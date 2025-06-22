@@ -1,7 +1,7 @@
 === AverageDanmakufuFinal ===
 ver 1.0 (initial upload)
 
-below is a list of oddities i'll probably fix in the future:
+below is a list of oddities (or just a todo list) i'll probably fix in the future:
 
 - player shots delete a bit too quickly at the top-left of the screen before UM. (too lazy to port the original binhacks from khang's initial UM version)
 - items reposition themselves at the edge of the original player field if they spawn "offscreen".
