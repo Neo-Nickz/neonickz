@@ -13,6 +13,7 @@ below is a list of oddities i'll probably fix in the future:
 - thprac doesn't work on some stages/bosses (crashes, or doesn't teleport), not much I can do about this one personally 
 - some effects look off (hyper bg, death effect)
 - hecatia's survival probably crashes
+- add bravi's BossDisplayFixes ecl improvements to this
 - probably more
 
 also; sometimes the HUD opacity is kinda hard to see during spells, i left the front.anm.c (and abcard.anm.c for UM) script there for you to tweak it
