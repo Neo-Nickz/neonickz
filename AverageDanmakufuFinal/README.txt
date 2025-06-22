@@ -10,7 +10,7 @@ below is a list of oddities i'll probably fix in the future:
 - the enemy fog/distortion effect looks a bit weird at the edges of the original player field
 - some enemies pop in/pop out (me being lazy)
 - some curvy/line lasers noticeably despawn, this is more apparent if you put a ECL patch alongsidee this one
-- thprac doesn't work on some stages/bosses (crashes, or doesn't teleport), not much I can do about this one personally
+- thprac doesn't work on some stages/bosses (crashes, or doesn't teleport), not much I can do about this one personally 
 - hecatia's survival probably crashes
 - probably more
 
