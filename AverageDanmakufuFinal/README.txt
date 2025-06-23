@@ -14,6 +14,7 @@ below is a list of oddities (or just a todo list) i'll probably fix in the futur
 - some effects look off (hyper bg, death effect)
 - hecatia's survival probably crashes
 - add bravi's BossDisplayFixes ecl improvements to this
+- laser that bounce (a shimmy non and tsukasa's spell 1) don't have their bounce bounds corrected
 - probably more
 
 also; sometimes the HUD opacity is kinda hard to see during spells, i left the front.anm.c (and abcard.anm.c for UM) script there for you to tweak it
