@@ -5,8 +5,8 @@ below is a list of oddities (or just a todo list) i'll probably fix in the futur
 
 - player shots delete a bit too quickly at the top-left of the screen before UM. (too lazy to port the original binhacks from khang's initial UM version)
 - items reposition themselves at the edge of the original player field if they spawn "offscreen".
-- PIV items instantly delete themselves if they're "offscreen", this is most noticeable in TH16
-- animal spirit bounce bounds are unchanged, if they're spawned or go "offscreen", they delete themselves
+- PIV items despawn if they're "offscreen", this is most noticeable in TH16
+- animal spirit bounce bounds are unchanged, if they're spawned or go "offscreen", they insta despawn
 - the enemy fog/distortion effect looks a bit weird at the edges of the original player field
 - some enemies pop in/pop out (me being lazy)
 - some curvy/line lasers noticeably despawn, this is more apparent if you put a ECL patch alongsidee this one
