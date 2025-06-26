@@ -65,10 +65,22 @@
             addr: "0x43C0AE",
             code: "0F2F 35 {f32:320}"
         },
+        wide_playfield_laser_offscreen_widthfix1: {
+            addr: "0x43C0D0",
+            code: "F3 0F10 2D {f32:-420}"
+        },
         wide_playfield_laser_offscreen_width2: {
             addr: "0x43C076", 
             code: "F3 0F10 3D {f32:-320}"
         },
+        wide_playfield_laser_offscreen_widthfix2: {
+            addr: "0x43C0E8", 
+            code: "0F2F 1D {f32:420}"
+        },
+        // "wide_playfield_laser_height": {
+        //     "addr": "0x43C0A0",
+        //     "code": "F3 0F10 3D {f32:480}"
+        // },
         enemy_x_left_check: {
             addr: "0x4236b3", 
             code: "F3 0F10 05 {f32:-310}"
@@ -121,10 +133,36 @@
         	"addr": "0x41A489",
         	"code": "F3 0F58 15 {f32:640}", 
         },
-		"disable_shot_delete_based_on_res": {
-            "addr": ["0x45119d", "0x4511c5"],
-            "code": "<nop:2>",
+
+        wide_playfield_player_bullet_offscreen_width: {
+            addr: "0x45117b",
+            code: "F3 0F10 15 {f32:640}"
         },
+        wide_playfield_player_bullet_offscreen_height: {
+            addr: "0x451183",
+            code: "F3 0F10 25 {f32:480}"
+        },
+        "wide_playfield_low_res_x_width": {
+            "addr": "0x46aead",
+            "code": "F3 0F5C 05 {f32:660}"
+        },
+        "wide_playfield_low_res_y_height": {
+            "addr": "0x46aed5",
+            "code": "F3 0F5C 05 {f32:480}"
+        },
+        wide_playfield_enemy_distortion_width: {
+            addr: "0x424544",
+            code: "F3 0F10 15 {f32:660}"
+        },
+        wide_playfield_enemy_distortion_height: {
+            addr: "0x4245a3",
+            code: "F3 0F10 15 {f32:640}"
+        },
+        "wide_playfield_distortion_start_height": {
+            "addr": "0x424574",
+            "code": "66 0F6E 05 {i32:172}"
+        },
+
 
         "X_LEFT_POS_CORRECTION_1": {
             "addr": "0x44D7A8",    

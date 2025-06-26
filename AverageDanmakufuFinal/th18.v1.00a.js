@@ -86,7 +86,7 @@
         },
         wide_playfield_low_res_x_width: {
             addr: "0x47384E",
-            code: "{f32:640}"
+            code: "{f32:660}"
         },
         wide_playfield_low_res_y_height: {
             addr: "0x473870",
@@ -94,11 +94,15 @@
         },
         wide_playfield_enemy_distortion_width: {
             addr: "0x42FCB8",
-            code: "{f32:640}"
+            code: "{f32:660}"
         },
         wide_playfield_enemy_distortion_height: {
             addr: "0x42FD17",
-            code: "{f32:480}"
+            code: "{f32:640}"
+        },
+        "wide_playfield_distortion_start_height": {
+            "addr": "0x42FCE4",
+            "code": "66 0F6E 05 {i32:172}"
         },
         wide_playfield_some_stage_func_width: {
             addr: "0x41CDEC",

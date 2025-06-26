@@ -88,46 +88,34 @@
         	"addr": "0x41B606", 
         	"code": "C7 83 FC100000 0000F043",
         },
-        // "change_exwrap_x_left_bounds_1": {
-        // 	"addr": "0x41A380",
-        // 	"code": "F3 0F10 35 {f32:-310}", 
-        // },
-        // "change_exwrap_x_right_bounds_1": {
-        // 	"addr": "0x41A388",
-        // 	"code": "F3 0F10 3D {f32:310}", 
-        // },
-        // "change_exwrap_y_down_bounds": {
-        // 	"addr": "0x41A390", 
-        // 	"code": "F3 0F10 25 {f32:470}",
-        // },
-        // "exwrap_thing_1": {
-        //     "addr": "0x41A3B3",
-        //     "code": "F3 0F59 2D {f32:1}", 
-        // },
-        // "exwrap_thing_2": {
-        //     "addr": "0x41A3DE",
-        //     "code": "F3 0F59 35 {f32:1}", 
-        // },
-        // "exwrap_thing_3": {
-        //     "addr": "0x41A3F3",
-        //     "code": "F3 0F10 3D {f32:1}", 
-        // },
-        // "exwrap_thing_4": {
-        //     "addr": "0x41A40A",
-        //     "code": "F3 0F10 35 {f32:1}", 
-        // },
-        // "change_exwrap_x_left_bounds_2": {
-        //     "addr": "0x41A46A", 
-        //     "code": "F3 0F58 15 {f32:640}", 
-        // },
-        // "change_exwrap_x_right_bounds_2": {
-        // 	"addr": "0x41A489",
-        // 	"code": "F3 0F58 15 {f32:640}", 
-        // },
 
-		"disable_shot_delete_based_on_res": {
-            "addr": ["0x4592d9", "0x459301"],
-            "code": "<nop:2>",
+        wide_playfield_player_bullet_offscreen_width: {
+            addr: "0x4592b7",
+            code: "F3 0F10 1D {f32:640}"
+        },
+        wide_playfield_player_bullet_offscreen_height: {
+            addr: "0x4592bf",
+            code: "F3 0F10 25 {f32:480}"
+        },
+        "wide_playfield_low_res_x_width": {
+            "addr": "0x472F13",
+            "code": "F3 0F5C 05 {f32:660}"
+        },
+        "wide_playfield_low_res_y_height": {
+            "addr": "0x472F35",
+            "code": "F3 0F5C 05 {f32:480}"
+        },
+        wide_playfield_enemy_distortion_width: {
+            addr: "0x428664",
+            code: "F3 0F10 15 {f32:660}"
+        },
+        wide_playfield_enemy_distortion_height: {
+            addr: "0x4286C3",
+            code: "F3 0F10 15 {f32:640}"
+        },
+        "wide_playfield_distortion_start_height": {
+            "addr": "0x428694",
+            "code": "66 0F6E 05 {i32:172}"
         },
 
         "X_LEFT_POS_CORRECTION_1": {

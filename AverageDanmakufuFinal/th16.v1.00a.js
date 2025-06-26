@@ -91,9 +91,33 @@
 			"code": "C7 83 E0100000 0000F043",
 		},
 
-		"disable_shot_delete_based_on_res": {
-            "addr": ["0x445813", "0x44583B"],
-            "code": "<nop:2>",
+        wide_playfield_player_bullet_offscreen_width: {
+            addr: "0x4457f1",
+            code: "F3 0F10 1D {f32:640}"
+        },
+        wide_playfield_player_bullet_offscreen_height: {
+            addr: "0x4457f9",
+            code: "F3 0F10 25 {f32:480}"
+        },
+        "wide_playfield_low_res_x_width": {
+            "addr": "0x45b2f3",
+            "code": "F3 0F5C 05 {f32:660}"
+        },
+        "wide_playfield_low_res_y_height": {
+            "addr": "0x45b315",
+            "code": "F3 0F5C 05 {f32:480}"
+        },
+        wide_playfield_enemy_distortion_width: {
+            addr: "0x41d014",
+            code: "F3 0F10 15 {f32:660}"
+        },
+        wide_playfield_enemy_distortion_height: {
+            addr: "0x41d073",
+            code: "F3 0F10 15 {f32:640}"
+        },
+        "wide_playfield_distortion_start_height": {
+            "addr": "0x41D044",
+            "code": "66 0F6E 05 {i32:172}"
         },
         
         "X_LEFT_POS_CORRECTION_1": {
