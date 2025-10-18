@@ -1,10 +1,4 @@
 {
-    "options": {
-        "ToutetsuC1EtBreakSubName": {
-            "type": "s",
-            "val": "Ecl_EtBreakLv1"
-        }
-    },
 	"binhacks": {
 		wide_playfield_camera3_width: {
             addr: "0x44582b",
