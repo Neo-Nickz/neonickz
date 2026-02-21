@@ -209,10 +209,6 @@ B0 AB 45 00 \
             "addr": "0x455AB0",
             "code": "<codecave:new_onhit_table>"
         },
-        "replace_shtfile_fields_nop": {
-            "addr": ["0x453572","0x453587","0x45359c"],
-            "code": "<nop:3>"
-        },
         "replace_reisen_name_cuz_fuck_her_amirite": {
             "addr": "0x4cb31c",
             "code": "<option:SakuyaReplayMenuName>"
